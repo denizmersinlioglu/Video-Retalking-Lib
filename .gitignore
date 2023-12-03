@@ -8,7 +8,7 @@ __pycache__
 *.mkv
 *.gif
 *.webm
-checkpoints/*
+/workspace/video-retalking/checkpoints/*
 results/*
 temp/*
 segments.txt

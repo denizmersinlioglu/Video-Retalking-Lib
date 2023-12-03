@@ -13,7 +13,7 @@
                     focal: 1015.0                        
                   gpu_ids: 0                             
      inference_batch_size: 8                             
-                init_path: checkpoints/init_model/resnet50-0676ba61.pth
+                init_path: /workspace/video-retalking/checkpoints/init_model/resnet50-0676ba61.pth
                 input_dir: demo_video                    	[default: None]
                   isTrain: False                         	[default: None]
              keypoint_dir: demo_cctv                     	[default: None]

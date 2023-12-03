@@ -27,7 +27,9 @@ class FaceReconModel(BaseModel):
             choices=["resnet18", "resnet34", "resnet50"],
             help="network structure",
         )
-        parser.add_argument("--init_path", type=str, default="checkpoints/init_model/resnet50-0676ba61.pth")
+        parser.add_argument(
+            "--init_path", type=str, default="/workspace/video-retalking/checkpoints/init_model/resnet50-0676ba61.pth"
+        )
         parser.add_argument(
             "--use_last_fc",
             type=util.str2bool,
@@ -56,7 +58,9 @@ class FaceReconModel(BaseModel):
                 help="face recog network structure",
             )
             parser.add_argument(
-                "--net_recog_path", type=str, default="checkpoints/recog_model/ms1mv3_arcface_r50_fp16/backbone.pth"
+                "--net_recog_path",
+                type=str,
+                default="/workspace/video-retalking/checkpoints/recog_model/ms1mv3_arcface_r50_fp16/backbone.pth",
             )
             parser.add_argument(
                 "--use_crop_face",
