@@ -6,9 +6,9 @@ from basicsr.utils.download_util import load_file_from_url
 from facexlib.utils.face_restoration_helper import FaceRestoreHelper
 from torchvision.transforms.functional import normalize
 
-from third_part.gfpgan.archs.gfpgan_bilinear_arch import GFPGANBilinear
-from third_part.gfpgan.archs.gfpganv1_arch import GFPGANv1
-from third_part.gfpgan.archs.gfpganv1_clean_arch import GFPGANv1Clean
+from third_part.GFPGAN.gfpgan.archs.gfpgan_bilinear_arch import GFPGANBilinear
+from third_part.GFPGAN.gfpgan.archs.gfpganv1_arch import GFPGANv1
+from third_part.GFPGAN.gfpgan.archs.gfpganv1_clean_arch import GFPGANv1Clean
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
