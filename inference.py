@@ -48,7 +48,7 @@ def main():
     os.makedirs(os.path.join("temp", args.tmp_dir), exist_ok=True)
 
     enhancer = FaceEnhancement(
-        base_dir=/workspace/video-retalking/checkpoints/",
+        base_dir="/workspace/video-retalking/checkpoints",
         size=512,
         model="GPEN-BFR-512",
         use_sr=False,
