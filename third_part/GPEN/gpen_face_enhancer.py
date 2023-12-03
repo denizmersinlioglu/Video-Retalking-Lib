@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 ######### face enhancement
-from face_parse.face_parsing import FaceParse
+from third_part.GPEN.face_parse.face_parsing import FaceParse
 from third_part.GPEN.face_detect.retinaface_detection import RetinaFaceDetection
-from face_parse.face_parsing import FaceParse
+from third_part.GPEN.face_parse.face_parsing import FaceParse
 from third_part.GPEN.face_model.face_gan import FaceGAN
 
 # from sr_model.real_esrnet import RealESRNet
